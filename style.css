@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/coff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    max-width:450px;
+    font-family: sans-serif;
+}
+hr{
+    background-color: rgb(172, 70, 70);
+    height: 3px;
+}
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200px;
+}
+span{
+    display: block;
+    margin-top: 5px;
+}
+h1,h2{
+    font-family: Impact, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-weight: 30px;
+}
+h2{
+    font-weight: 25px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+h1,h2,p{
+    text-align: center;
+}
+.item p{
+    display: inline-block;
+    margin: 5px 0px;
+    font-size: 18px
+}
+.coffee, .cold, .snakes{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: rgb(22, 20, 20);
+}
+a:visited{
+    color: brown;
+}
+address{
+    font-style: normal;
+    margin-top: 15px;
+}
